@@ -1,0 +1,179 @@
+/**
+font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+
+**/
+body{
+    font-family: 'Montserrat';
+}
+h1 {  
+    font-family: "Montserrat"; 
+    font-size: 3.3rem;  
+    line-height: 1.5; 
+     font-weight: 900;
+    }
+
+h3{
+    font-family:"Montserrat" ;
+    font-weight: 900;
+}
+p{
+    color: #8f8f8f;
+}
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+
+/***navigation bar**/
+.navbar{
+    padding-bottom: 4.5rem;
+
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+  
+}
+.nav-item{
+     padding: 0 18px;
+     text-align: right;
+     
+}
+.nav-link{
+    font-family:"Montserrat";
+    font-size: 1.2rem;
+   text-align: right;
+    float: right;
+}
+
+/****download buttons**/
+.download-button{
+    margin: 5% 3% 5% 3%;
+}
+
+/*title-image*/
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    padding-left: 30px;
+    
+}
+
+/**features**/
+#features{
+    
+}
+.feature-box{
+    
+    padding-right: 0px;
+    padding-left: 120px;
+    padding-top: 120px;
+    width: 370px;
+    text-align: center;
+
+}
+.row{
+   
+}
+.fa-solid{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.fa-solid:hover {
+color:#ff4c68;
+}
+#h-three{
+  font-family: Montserrat-Black 900 ;
+}
+
+/**Testimonial-section**/
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+    margin-top: 7%;
+    padding-bottom: 0px;
+    padding-top: 0%;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+h2{
+    font-family: Montserrat-Black 900;
+    font-size: 2.3rem;  
+    line-height: 1.5; 
+     font-weight: 600;
+}
+em{
+    font-weight: 600;
+}
+.testimonial-image{
+    border-radius: 100%;
+    padding: 20px;
+    width: 30%;
+}
+
+#press{
+    background-color: #ef8172;
+    padding-top: 0%;
+    padding-bottom: 3%;
+    text-align: center;
+}
+.press-logo{
+    width: 15%;      /**This is a box where you can change the width.**/
+    margin: 20px 20px 50px;
+}
+
+
+/**Pricing Section**/
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-section{
+    padding: 3% 2%;
+}
+/**media-queries**/
+@media (max-width:1028px)
+{
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+}
+
+
+/**footer-section***/
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+    
+}
+.cta-heading{
+    font-size: 2.5rem;
+    line-height: 1.5; 
+}
+#footer{
+    background-color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+}
+.foot{
+    padding-top: 20px;
+}
+.icons{
+    padding-left: 10px;
+}
